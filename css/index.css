@@ -1,0 +1,130 @@
+* {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+.bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    background: #464444;
+}
+.shadow {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    
+    background: radial-gradient(48.44% 153.09% at 1.56% 100.88%, rgba(0, 0, 0, 0.72) 0%, rgba(47, 47, 47, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(50% 158.02% at 100% 58.8%, rgba(0, 0, 0, 0.72) 0%, rgba(47, 47, 47, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.circle {
+    position: absolute;
+    width: 237px;
+    height: 184px;
+    left: 1801px;
+    top: -102px;
+    
+    background: #FF1515;
+    filter: blur(200px);
+}
+.circle2 {
+    position: absolute;
+    width: 237px;
+    height: 184px;
+    left: 74px;
+    top: -56px;
+    
+    background: #FF1515;
+    filter: blur(200px);
+}
+.text {
+    position: absolute;
+    width: 1051px;
+    height: 242px;
+    left: 434px;
+    top: 228px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 121px;
+    
+    color: #FFFFFF;
+}
+.progeress {
+    position: absolute;
+    width: 791px;
+    height: 101px;
+    left: 564px;
+    top: 675px;
+    
+    background: #0F7D0D;
+    box-shadow: 0px 4px 100px #0B8109;
+}
+.lay2 {
+    position: absolute;
+    width: 395px;
+    height: 101px;
+    left: 960px;
+    top: 675px;
+    
+    background: #181818;
+}
+.progressText {
+    position: absolute;
+    width: 187px;
+    height: 121px;
+    left: 883px;
+    top: 665px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 121px;
+    
+    color: #FFFFFF;
+}
+.sub {
+    position: absolute;
+    width: 434px;
+    height: 121px;
+    left: 760px;
+    top: 796px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 121px;
+    
+    color: #FFFFFF;
+}
+.tt {
+    position: absolute;
+    width: 1000px;
+    height: 73px;
+    left: 595px;
+    top: 540px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 73px;
+    
+    color: #FFFFFF;
+}
